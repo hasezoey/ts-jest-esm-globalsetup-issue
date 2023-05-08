@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build",
+    "noEmit": false,
+    "target": "es2020",
+    "module": "Node16",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "lib": ["esnext"],
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest"],
+    "importHelpers": true
+  },
+  "include": ["src/**/*"]
+}
